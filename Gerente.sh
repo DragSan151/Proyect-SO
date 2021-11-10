@@ -144,7 +144,7 @@ cat Usuario.txt
 5)
 echo "Buscar un Administrativo"
 read -p "Ingrese el nombre del Administrativo" nombre
-Verificar=$(grep "$nombre" Usuarios.txt | cut -f 3 -d":")
+Verificar=$(grep "$nombre" Usuario.txt | cut -f 3 -d":")
 if [ "$Verificar" == "Administrativo" ]
 then
 
